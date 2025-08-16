@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-24.04
     permissions: {}
     steps:
-      - uses: actions/checkout@v4.2.2
-        with:
-          persist-credentials: false
+      # - uses: actions/checkout@v4.2.2
+      #   with:
+      #     persist-credentials: false
+      - uses: szksh-lab-2/test-action-2@9e2a72fb2ec7ffe46e18ab4782a7742955839c85
